@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- domain fixed to rush_to_school but problem you can override with this arg -->
+    <arg name="problem" default="interference" />
+
+    <include file="$(find rpd_esterel_debug_tools)/ros/launch/parse_and_dispatch.launch" >
+        <arg name="domain" default="rush_to_school" />
+        <arg name="problem" default="$(arg problem)" />
+    </include>
+
+</launch>

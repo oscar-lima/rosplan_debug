@@ -1,0 +1,8 @@
+0.0: (get_in_car ben car home) [1.0]
+0.0: (get_in_car batdad car home) [1.0]
+0.0: (get_in_car siena car home) [1.0]
+1.0: (move_vehicle home siena_school car batdad) [3.0]
+4.0: (get_down_from_car siena car siena_school) [1.0]
+4.0: (move_vehicle siena_school home car batdad) [3.0
+7.0: (move_vehicle home ben_school car batdad) [3.0]
+10.0: (get_down_from_car ben car ben_school) [1.0]

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+    <name>rpd_esterel_debug_tools</name>
+    <version>1.0.0</version>
+    <description>
+        Scripts, launch files and documentation that will help to debug/understand
+        rosplan esterel plan parse/dispatch
+    </description>
+
+    <license>GPLv3</license>
+
+    <author email="olima@isr.tecnico.ulisboa.pt">Oscar Lima</author>
+    <maintainer email="olima@isr.tecnico.ulisboa.pt">Oscar Lima</maintainer>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+</package>

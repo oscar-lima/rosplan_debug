@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!-- Simulate (mockup, hack) action feedback for testing purposes -->
+	<!-- DOMAIN: rush_to_school -->
+
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="move_vehicle" />
+		<arg name="action_duration" default="3.0" />
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+	
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="get_in_car" />
+		<arg name="action_duration" default="1.0" />
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="get_down_from_car" />
+		<arg name="action_duration" default="1" />
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+
+</launch>
