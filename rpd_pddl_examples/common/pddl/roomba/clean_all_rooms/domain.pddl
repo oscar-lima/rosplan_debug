@@ -5,24 +5,25 @@
   )
 
   (:types
+    robot
     location
   )
 
   (:predicates
-    (at ?l - location)
+    (at ?r - robot ?l - location)
     (clean ?l - location)
-  ) 
+  )
 
   (:action move
-    :parameters (?source ?destination - location)
-    :precondition   (at ?source)
-    :effect         (and ( not (at ?source))
-                         (at ?destination))
+    :parameters (?r - robot ?source ?destination - location)
+    :precondition   (at ?r ?source)
+    :effect         (and ( not (at ?r ?source))
+                         (at ?r ?destination))
   )
 
   (:action clean
-    :parameters (?l - location)
-    :precondition   (and (at ?l)
+    :parameters (?r - robot ?l - location)
+    :precondition   (and (at ?r ?l)
                          ( not (clean ?l))
                     )
     :effect         (clean ?l)

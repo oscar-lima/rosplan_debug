@@ -1,18 +1,17 @@
 (define (problem example_problem)
-	
-  (:domain cleaning_robot)
+  (:domain roomba)
 
-  (:objects 
-  	ghost - robot
+  (:objects
+  	roomba - robot
   	a b - location
   )
 
-  (:init 
-  	(at ghost a)
-  ) 
+  (:init
+  	(at roomba a)
+  )
 
   (:goal
-  	(  and (at ghost a)
+  	(  and (at roomba a)
            (clean b)
            (clean a)
     )

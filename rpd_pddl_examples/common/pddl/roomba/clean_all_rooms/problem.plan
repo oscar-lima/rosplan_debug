@@ -1,4 +1,4 @@
-0.00:   (clean a) [10.0]
-10.00:   (move a b) [5.0]
-15.00:   (clean b) [10.0]
-25.00:   (move b a) [5.0]
+0.00:   (clean roomba a) [10.0]
+10.00:   (move roomba a b) [5.0]
+15.00:   (clean roomba b) [10.0]
+25.00:   (move roomba b a) [5.0]
