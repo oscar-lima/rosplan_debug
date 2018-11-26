@@ -15,4 +15,4 @@ ROSPlan in a nutshell
 
 Below you see a diagram that explains ROSPlan in one diagram
 
-![alt ERL_gazebo_testbed](https://github.com/oscar-lima/rosplan_debug/rpd_turtlebot_demo/ros/doc/rosplan_turtlebot_example_detail.pdf "ROSPlan turtlebot example")
+![ROSPlan turtlebot example, comprehensive diagram](https://github.com/oscar-lima/rosplan_debug/rpd_turtlebot_demo/ros/doc/rosplan_turtlebot_example_detail.pdf "ROSPlan turtlebot example")
