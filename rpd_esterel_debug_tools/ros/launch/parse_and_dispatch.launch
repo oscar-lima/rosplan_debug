@@ -32,6 +32,7 @@
         <arg name="knowledge_base"   value="rosplan_knowledge_base" />
         <arg name="planner_topic"    value="/rosplan_planner_interface/planner_output" />
         <arg name="plan_topic"       value="complete_plan" />
+        <arg name="strong_graph_optimization" value="true" />
     </include>
 
     <!-- plan dispatch -->
