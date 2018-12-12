@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!-- Simulate (mockup, hack) action feedback for testing purposes -->
+	<!-- DOMAIN: mapanalyzer -->
+
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="move_vehicle_road" />
+		<arg name="action_duration" default="1.0" /> <!-- according to funcion -->
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="vehicle_arrived" />
+		<arg name="action_duration" default="1.0" />
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="vehicle_start" />
+		<arg name="action_duration" default="1.0" />
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="build_road" />
+		<arg name="action_duration" default="1.0" /> <!-- according to funcion -->
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+
+		<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="remove_road" />
+		<arg name="action_duration" default="1.0" /> <!-- according to funcion -->
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+    
+</launch>

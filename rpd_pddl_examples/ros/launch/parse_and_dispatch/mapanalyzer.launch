@@ -3,11 +3,15 @@
 
     <!-- domain fixed to mapanalyzer but problem you can override with this arg -->
     <!-- options: P10-10-10-1-1  P10-10-6-3-4  P15-15-3-1-1  P5-5-3-0-1  P7-7-5-2-1 simple-P5 -->
+    <arg name="domain" default="mapanalyzer" />
     <arg name="problem" default="simple-P5" />
 
     <include file="$(find rpd_esterel_debug_tools)/ros/launch/parse_and_dispatch.launch" >
-        <arg name="domain" default="mapanalyzer" />
+        <arg name="domain" default="$(arg domain)" />
         <arg name="problem" default="$(arg problem)" />
     </include>
+
+    <!-- simulate actions -->
+    <include file="$(find rpd_pddl_examples)/ros/launch/sim_actions/sim_actions_$(arg domain).launch" />
 
 </launch>

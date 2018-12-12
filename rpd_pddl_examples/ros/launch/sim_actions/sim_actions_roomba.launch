@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!-- Simulate (mockup, hack) action feedback for testing purposes -->
+	<!-- DOMAIN: roomba -->
+
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="move" />
+		<arg name="action_duration" default="5.0" />
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+
+	<include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
+		<arg name="pddl_action_name" value="clean" />
+		<arg name="action_duration" default="10.0" />
+		<arg name="action_probability" default="1.0" /> <!-- always succeed -->
+	</include>
+
+</launch>
