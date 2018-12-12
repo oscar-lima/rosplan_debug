@@ -9,4 +9,7 @@
         <arg name="problem" default="$(arg problem)" />
     </include>
 
+    <!-- simulate actions -->
+    <include file="$(find rpd_pddl_examples)/ros/launch/sim_actions/sim_actions_rush_to_school.launch" />
+
 </launch>
