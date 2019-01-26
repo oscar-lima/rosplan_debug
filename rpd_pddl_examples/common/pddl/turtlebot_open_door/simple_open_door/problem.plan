@@ -1,0 +1,3 @@
+0.0003: (goto_waypoint kenny start_wp open_door_wp) [3.0000]
+3.0005: (open_door kenny open_door_wp printer_wp) [5.0000]
+8.0007: (goto_waypoint kenny open_door_wp printer_wp) [3.0000]
