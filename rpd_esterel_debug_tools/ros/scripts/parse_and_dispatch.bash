@@ -3,6 +3,7 @@
 # parse a plan by file, you need to input the plan.pddl path as argument to this script
 # e.g. /home/user/Downloads/plan.pddl
 
+# wait until launch file has launched required components
 sleep 2
 
 echo "Parsing Plan from file: ${1}"
