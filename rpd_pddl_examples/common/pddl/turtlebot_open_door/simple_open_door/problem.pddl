@@ -7,7 +7,7 @@
 (:init
     (robot_at kenny start_wp)
     (connected start_wp open_door_wp)
-    (connected open_door_wp printer_wp)
+    ;(connected open_door_wp printer_wp) ; comment this predicate to close door
     (door_at_location open_door_wp)
 )
 (:goal (and

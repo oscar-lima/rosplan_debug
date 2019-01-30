@@ -17,7 +17,7 @@
     </include>
 
     <!-- run script for parsing / dispatching plan -->
-    <node pkg="rpd_esterel_debug_tools" type="parse_and_dispatch.bash" name="parse_and_dispatch"
+    <node pkg="rpd_esterel_debug_tools" type="parse.bash" name="parse_and_dispatch"
           output="screen" args="$(arg base_path)/$(arg instance).plan" />
 
 </launch>
