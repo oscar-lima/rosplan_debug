@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- NOTE: Parse only, do not dispatch actions -->
+
+    <arg name="domain" default="robot_delivery" />
+    <arg name="problem" default="multirobot" />
+
+    <!-- parse only, do not dispatch actions -->
+    <include file="$(find rpd_esterel_debug_tools)/ros/launch/parse.launch" >
+        <arg name="domain" value="$(arg domain)" />
+        <arg name="problem" value="$(arg problem)" />
+    </include>
+
+</launch>
