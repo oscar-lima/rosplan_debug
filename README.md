@@ -17,8 +17,6 @@ Below you see a diagram that explains ROSPlan in one diagram
 
 # Collection of ROSPlan resources
 
-# [ROSPlan](https://github.com/KCL-Planning/ROSPlan) Main documentation
-
 [ROSPlan main documentation](http://kcl-planning.github.io/ROSPlan/)
 
 # tutorials
