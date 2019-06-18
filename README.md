@@ -9,9 +9,9 @@ rpd_pddl_examples: A place to store lots of pddl domains which are partially int
 rpd_turtlebot_demo: Launch files to run a lightweight version of rosplan turtlebot demo
 (no gazebo gui and no rviz for instance) and with a lot of documentation about it.
 
-# [ROSPlan](https://github.com/KCL-Planning/ROSPlan) in a nutshell
+# ROSPlan in a nutshell
 
-Below you see a diagram that explains ROSPlan in one diagram
+Below you see a diagram that explains [ROSPlan](https://github.com/KCL-Planning/ROSPlan) in one diagram
 
 ![ROSPlan turtlebot example, comprehensive diagram](https://github.com/oscar-lima/rosplan_debug/blob/kinetic/rpd_turtlebot_demo/ros/doc/rosplan_turtlebot_example_detail.pdf "ROSPlan turtlebot example")
 
