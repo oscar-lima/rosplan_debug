@@ -19,7 +19,7 @@ Below you see a diagram that explains [ROSPlan](https://github.com/KCL-Planning/
 
 [ROSPlan main documentation](http://kcl-planning.github.io/ROSPlan/)
 
-# tutorials
+# Tutorials
 
 ICRA 2017 [tutorial](http://kcl-planning.github.io/ROSPlan//demos/conference_pages/tutorialICRA2017.html)
 
@@ -29,7 +29,7 @@ AAAI 2017 [tutorial](http://kcl-planning.github.io/ROSPlan//demos/conference_pag
 
 ICAPS 2018 ROSPlan tutorial, [website (with slides)](https://irsgroup.isr.tecnico.ulisboa.pt/tutorial-on-integrating-classical-planning-and-mobile-service-robots-using-rosplan/), [material](https://github.com/oscar-lima/rosplan_tutorial)
 
-# videos
+# Videos
 
 ICAPS 2015 recorded talk made available on YouTube by Michael Cashmore with title: "ICAPS 2015: "ROSPlan: Planning in the Robot Operating System"" [link](https://youtu.be/brhIwSMEzdA)
 
