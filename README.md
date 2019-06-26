@@ -21,7 +21,7 @@ Below we present a diagram that explains [ROSPlan](https://github.com/KCL-Planni
 
 # Tutorials
 
-[The construct](http://www.theconstructsim.com/rdp-047-ros-plan-michael-cashmore/)
+[The construct podcasts](http://www.theconstructsim.com/rdp-047-ros-plan-michael-cashmore/)
 
 ICRA 2017 [tutorial](http://kcl-planning.github.io/ROSPlan//demos/conference_pages/tutorialICRA2017.html)
 
